@@ -7,7 +7,9 @@ public class Testing {
     @DisplayName("Number of Characters")
     void testNumberOfCharacters(){
         Assertions.assertEquals(5,numOfChar("hello"));
-
     }
+    @Test
+    @DisplayName("Number of words")
+    void
 
 }
