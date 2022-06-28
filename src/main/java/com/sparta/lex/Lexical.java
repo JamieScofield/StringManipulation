@@ -4,8 +4,21 @@ import java.util.Arrays;
 
 public class Lexical {
 
-    public void numOfChar(String input) {
+    public int numOfChar(String input) {
+        int num = 0;
         String[] splitInput = input.split(" ");
-        System.out.println(Arrays.toString(splitInput));
+        for (String s : splitInput) {
+            num += s.length();
+        }
+        return num;
+    }
+
+    public int numOfWords(String input) {
+        int num = 0;
+        String[] splitInput = input.split(" ");
+        for (String s : splitInput) {
+            num++;
+        }
+        return num;
     }
 }
