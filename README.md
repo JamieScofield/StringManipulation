@@ -27,3 +27,4 @@ public int numOfWords(String input) {
     return num;
 }
 ```
+The following method will use the input parameter and split the string based on all non alphanumeric characters. This will then be stored into a string array in which a foreach loop is used to go through each item in the array. For every loop we will increment the num variable and then return the num variable at the end which will show us the total words in the string
