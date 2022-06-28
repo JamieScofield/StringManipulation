@@ -32,6 +32,12 @@ public class Testing {
         Lexical lexical = new Lexical();
         Assertions.assertEquals(3,lexical.numOfWords("how are you"));
     }
+    @Test
+    @DisplayName("most frequent character test")
+    void testFrequentChar(){
+        Lexical lexical = new Lexical();
+        Assertions.assertEquals("a",lexical.numOfFreq("jaaaaaaamie"));
+    }
 
 
 }
